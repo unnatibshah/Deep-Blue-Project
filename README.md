@@ -51,32 +51,62 @@ Traditional handcrafted crowd-counting techniques such as those in [1,14] perfor
 
 ### Acronyms
 NNs	Neural Networks
+
 CNNs	Convolutional NNs
+
 RNNs	Recurrent NNs
+
 FCL	Fully Connected Layer
+
 UAV	Unmanned Aerial Vehicle
+
 ReLU	Rectified Linear Unit
+
 GTD	Ground Truth Density
+
 ED	Estimated Density
+
 GLCM	Gray Level Co-Occurrence Metrics
+
 HOG	Histogram Oriented Gradient
+
 LBP	Local Binary Pattern
+
 KLT	Kanade–Lucas–Tomasi
+
 GANs	Generative Adversarial Networks
+
 MAE	Mean Absolute Error
+
 MSE	Mean Square Error
+
 STA	ShanghaiTech-A (a dataset)
+
 STB	ShanghaiTech-B (a dataset)
+
 WE	World Expo 10 (a dataset)
+
 CNN-CC	CNN Crowd Counting
+
 Network-CNN-CC	Network-based CNN-CC techniques
+
 Basic-CNN-CC	Basic CNN-CC techniques
+
 Context-CNN-CC	Context-aware CNN-CC techniques
+
 Scale-CNN-CC	Scale-aware CNN-CC techniques
+
 Multi-task-CNN-CC	Multitask CNN-CC techniques
+
 Image-view-CNN-CC	Image-view-based CNN-CC techniques
+
 Aerial-view-CNN-CC	Aerial-view-based CNN-CC techniques
+
 Perspective-CNN-CC	Perspective-view-based CNN-CC techniques
+
 Patch-based-CNN-CC	Patch-based CNN-CC techniques
+
 Whole-image-CNN-CC	Whole-image-based CNN-CC techniques
+
 Training-CNN-CC	Training-approach-based CNN-CC techniques
+
