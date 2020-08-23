@@ -48,3 +48,35 @@ CNN-based crowd counting faces many challenges that restrict the counting accura
 ### Motivation for Employing CNN-Based Image Crowd Counting
 
 Traditional handcrafted crowd-counting techniques such as those in [1,14] perform well if the training dataset has a low computational cost. However, challenges like occlusion, clutter, and scale variation reduce the accuracy of such traditional methods. In addition, the ED map obtained by employing these handcrafted methods has a low resolution that limits their applicability in many areas, such as medical imaging and military applications. In short, the manual nature of feature extraction by handcrafted methods makes them less (non)adaptive to evolving crowd-counting demands. By observing the above-mentioned deficiencies in traditional crowd-counting algorithms, and the success of CNNs in numerous computer-vision applications, researchers were inspired to exploit their ability in estimating the nonlinear feature density maps of crowd images [53,54,55]. These density maps can be utilized in machine-learning processes for more accurate prediction/estimation of the crowd count [63,64]. Further, up- and downsampling, scale aggregation, and preclassification with a multicolumn approach could also be used to increase the accuracy of crowd counting. On the other hand, deconvolution [65] and Generative Adversarial Networks (GANs) [66] can be employed to enhance the quality of a density map for medical applications.
+
+### Acronyms
+NNs	Neural Networks
+CNNs	Convolutional NNs
+RNNs	Recurrent NNs
+FCL	Fully Connected Layer
+UAV	Unmanned Aerial Vehicle
+ReLU	Rectified Linear Unit
+GTD	Ground Truth Density
+ED	Estimated Density
+GLCM	Gray Level Co-Occurrence Metrics
+HOG	Histogram Oriented Gradient
+LBP	Local Binary Pattern
+KLT	Kanade–Lucas–Tomasi
+GANs	Generative Adversarial Networks
+MAE	Mean Absolute Error
+MSE	Mean Square Error
+STA	ShanghaiTech-A (a dataset)
+STB	ShanghaiTech-B (a dataset)
+WE	World Expo 10 (a dataset)
+CNN-CC	CNN Crowd Counting
+Network-CNN-CC	Network-based CNN-CC techniques
+Basic-CNN-CC	Basic CNN-CC techniques
+Context-CNN-CC	Context-aware CNN-CC techniques
+Scale-CNN-CC	Scale-aware CNN-CC techniques
+Multi-task-CNN-CC	Multitask CNN-CC techniques
+Image-view-CNN-CC	Image-view-based CNN-CC techniques
+Aerial-view-CNN-CC	Aerial-view-based CNN-CC techniques
+Perspective-CNN-CC	Perspective-view-based CNN-CC techniques
+Patch-based-CNN-CC	Patch-based CNN-CC techniques
+Whole-image-CNN-CC	Whole-image-based CNN-CC techniques
+Training-CNN-CC	Training-approach-based CNN-CC techniques
