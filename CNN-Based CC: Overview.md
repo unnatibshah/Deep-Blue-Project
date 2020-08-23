@@ -1,7 +1,8 @@
 CNNs are useful in numerous applications, such as signal processing, image processing, and computer vision. In this regard, various CNN-CC algorithms were proposed to cope with major issues like occlusion, low visibility, inter- and intraobject variation, and scale variation due to different perspectives. A generic CNN-CC flow diagram is shown in Figure that depicts two approaches. The first, on the left, found ground-truth density (GTD) except for the last two blocks, which were used for comparison and error computation. The second, on the right, computed ED and crowd counting. The description of each block is as follows.
 
 ![image.jpg](https://github.com/unnatibshah/Deep-Blue-Project/blob/master/img/CNN_CC%20flow%20diagram.jpg)
-General form of CNN-CC algorithm. Crowd-counting mechanism starts from object annotation in an image to density estimation; object counting is depicted. General framework of crowd counting (top), and CNN working is expanded (bottom).
+
+##### General form of CNN-CC algorithm. Crowd-counting mechanism starts from object annotation in an image to density estimation; object counting is depicted. General framework of crowd counting (top), and CNN working is expanded (bottom).
 
 ### Annotation
 
